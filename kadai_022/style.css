@@ -88,6 +88,9 @@ a:visited{
 }
 h2{
   font-size: 30px;
+  border-bottom-width: 3px;
+  border-bottom-style: dotted;
+  border-bottom-color: rgb(236,122,122);
 }
 p{
   font-size: 25px;
