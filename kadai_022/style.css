@@ -62,15 +62,16 @@ h2::before{
 }
 
 img{
-  margin: 10px,0px;
+  margin-top:  10px;
+  margin-left: 0;
+  margin-bottom: 10px;
+  margin-right: 0;
   width: 70%;
 }
 
 footer{
   background-color: rgb(244,79,79);
   text-align: center;
-  margin-left: auto;
-  margin-left: auto;
 }
 
 a{
