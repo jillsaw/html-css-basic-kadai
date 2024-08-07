@@ -74,16 +74,16 @@ footer{
   text-align: center;
 }
 
-a{
+a:link{
   color: rgb(255, 255, 255);
+}
+
+a:visited{
+  color: rgb(193,234,251);
 }
 
 a:hover{
   color: rgb(245,178,168);
-}
-
-a:focus{
-  color: rgb(193,234,251);
 }
 
 @media screen and (max-width:768px)
