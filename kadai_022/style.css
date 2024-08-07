@@ -1,11 +1,15 @@
 h1{
   color: rgb(255, 255, 255);
-  margin: 0px,0px,0px,0px;
+  margin: 0;
 }
 
 p{
   font-size: 20px;
-  margin: 0px,0px,0px,0px;
+  margin: 0;
+}
+
+body{
+  margin: 0;
 }
 
 a{
@@ -24,32 +28,32 @@ div p:nth-of-type(2)::first-letter{
 }
 
 main{
-  margin: 10px,10px,10px,10px;
+  margin: 10px;
 }
 #parent{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .contents{
   border: 3px,solid,rgb(238,204,204);
-  flex-basis: 25%;
   padding-top: 10px;
   padding-left: 15px;
   padding-bottom: 10px;
   padding-right: 15px;
   margin-top: 20px;
-  margin-left: auto;
+  margin-left: 0;
   margin-bottom: 20px;
-  margin-right: auto;
+  margin-right: 0;
   text-align: center;
+  flex-basis: 25%;
 }
 
 h2{
   font-size: 25px;
   border-bottom-width: 3px;
   border-bottom-style: dotted;
-  border-bottom-color: rgb(239,122,122);
+  border-bottom-color: rgb(236,122,122);
 }
 
 h2::before{
@@ -58,7 +62,7 @@ h2::before{
 }
 
 img{
-  margin: 10px,0px,10px,0px;
+  margin: 10px,0px;
   width: 70%;
 }
 
