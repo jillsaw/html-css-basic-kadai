@@ -81,7 +81,7 @@ a:hover{
   color: rgb(245,178,168);
 }
 
-a:visited{
+a:focus{
   color: rgb(193,234,251);
 }
 
